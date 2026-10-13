@@ -1,0 +1,21 @@
+# Deepfake AI - Tested Python Forensic Backend Requirements
+# PyTorch and torchvision are installed from the official CUDA 12.4 index:
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+
+fastapi==0.143.0
+uvicorn[standard]==0.54.0
+python-multipart==0.0.32
+pydantic==2.14.0
+pillow==12.3.0
+transformers==5.19.0
+accelerate==1.15.0
+httpx==0.28.1
+pytest==9.1.1
+anyio==4.15.1
+datasets==5.1.0
+pyarrow==26.0.0
+opencv-python-headless==5.0.0.93
+scipy==1.18.1
+soundfile==0.14.0
+pyjwt[crypto]>=2.9.0
+python-dotenv>=1.0.0

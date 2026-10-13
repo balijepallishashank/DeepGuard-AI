@@ -1,0 +1,692 @@
+{
+  "version": "1.0.0",
+  "description": "DeepGuard AI Phase 4 Labelled Evaluation Dataset",
+  "total_samples": 68,
+  "modalities": {
+    "image": 42,
+    "audio": 25,
+    "video": 1
+  },
+  "records": [
+    {
+      "id": "AUD-GEN-00",
+      "modality": "audio",
+      "filename": "audio/genuine/genuine_audio_00_UK_male_1_original.wav",
+      "ground_truth": "Real",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_male_1_original.wav",
+      "condition": "standard_speech",
+      "sha256": "d341f058f90eaef90617838a565518d3af8cab7f41786433550bf7b82d73b22c"
+    },
+    {
+      "id": "AUD-GEN-01",
+      "modality": "audio",
+      "filename": "audio/genuine/genuine_audio_01_UK_male_2_original.wav",
+      "ground_truth": "Real",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_male_2_original.wav",
+      "condition": "standard_speech",
+      "sha256": "d522ccde3abfec5fc83c46efc9a426759e9c632005c49d52e0de8350741081c2"
+    },
+    {
+      "id": "AUD-GEN-02",
+      "modality": "audio",
+      "filename": "audio/genuine/genuine_audio_02_UK_male_3_original.wav",
+      "ground_truth": "Real",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_male_3_original.wav",
+      "condition": "standard_speech",
+      "sha256": "9963692193d207cd3b162c7fab4941ae9d2e7ed0727ad85ec3963f4daf6a97ee"
+    },
+    {
+      "id": "AUD-GEN-03",
+      "modality": "audio",
+      "filename": "audio/genuine/genuine_audio_03_UK_male_4_original.wav",
+      "ground_truth": "Real",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_male_4_original.wav",
+      "condition": "standard_speech",
+      "sha256": "f281b4f87588606649138d8eca40eccb1dda6d9ea101a1cd19b52999f07719c6"
+    },
+    {
+      "id": "AUD-GEN-04",
+      "modality": "audio",
+      "filename": "audio/genuine/genuine_audio_04_UK_male_5_original.wav",
+      "ground_truth": "Real",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_male_5_original.wav",
+      "condition": "standard_speech",
+      "sha256": "bf36b003c7206b316622d31018081c4ada37ff7d36f4eea577646d094a38cd31"
+    },
+    {
+      "id": "AUD-GEN-05",
+      "modality": "audio",
+      "filename": "audio/genuine/genuine_audio_05_USA_female_1_original.mp3",
+      "ground_truth": "Real",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "USA_female_1_original.mp3",
+      "condition": "standard_speech",
+      "sha256": "11a0e829c87c86100eca27d5342b9ef9bebe59c41e949d52d92512ee844dead9"
+    },
+    {
+      "id": "AUD-GEN-06",
+      "modality": "audio",
+      "filename": "audio/genuine/genuine_audio_06_USA_female_2_original.mp3",
+      "ground_truth": "Real",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "USA_female_2_original.mp3",
+      "condition": "standard_speech",
+      "sha256": "64a21c36cfb2a048a6031a71d2bad369bd65da0fe0992c62363c63265522f362"
+    },
+    {
+      "id": "AUD-GEN-07",
+      "modality": "audio",
+      "filename": "audio/genuine/genuine_audio_07_USA_female_3_original.mp3",
+      "ground_truth": "Real",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "USA_female_3_original.mp3",
+      "condition": "standard_speech",
+      "sha256": "f641514a7cc7dcd31211900b5d19437342992deed349fc793decb10d3d561504"
+    },
+    {
+      "id": "AUD-GEN-08",
+      "modality": "audio",
+      "filename": "audio/genuine/genuine_audio_08_USA_female_4_original.mp3",
+      "ground_truth": "Real",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "USA_female_4_original.mp3",
+      "condition": "standard_speech",
+      "sha256": "f1c2b66609900436f23965814de278df727a0b31cf94d188450b6e03777fd4c2"
+    },
+    {
+      "id": "AUD-GEN-09",
+      "modality": "audio",
+      "filename": "audio/genuine/genuine_audio_09_USA_female_5_original.mp3",
+      "ground_truth": "Real",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "USA_female_5_original.mp3",
+      "condition": "standard_speech",
+      "sha256": "9d35618f29ffa38f5245e5c73ad9738baa411d0616c5b87995b2a217a1449052"
+    },
+    {
+      "id": "AUD-SYN-00",
+      "modality": "audio",
+      "filename": "audio/synthetic/synthetic_audio_00_UK_female_1_synthetic_1.mp3",
+      "ground_truth": "Fake",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_female_1_synthetic_1.mp3",
+      "condition": "voice_clone",
+      "sha256": "dece36d12c0f3c5b3106b24100ce5e4c0c270824f6fec703da8b4001937ac8e1"
+    },
+    {
+      "id": "AUD-SYN-01",
+      "modality": "audio",
+      "filename": "audio/synthetic/synthetic_audio_01_UK_female_1_synthetic_2.mp3",
+      "ground_truth": "Fake",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_female_1_synthetic_2.mp3",
+      "condition": "voice_clone",
+      "sha256": "23c8b5e6a4286821fa6448199e60a3fd65a6825f9eaa2b9746262e1f44bff348"
+    },
+    {
+      "id": "AUD-SYN-02",
+      "modality": "audio",
+      "filename": "audio/synthetic/synthetic_audio_02_UK_female_1_synthetic_3.mp3",
+      "ground_truth": "Fake",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_female_1_synthetic_3.mp3",
+      "condition": "voice_clone",
+      "sha256": "f8383d07e44f64a819478576099a2821ccb2f20953fdaf82f65bbcf42abe8a67"
+    },
+    {
+      "id": "AUD-SYN-03",
+      "modality": "audio",
+      "filename": "audio/synthetic/synthetic_audio_03_UK_female_2_synthetic_1.mp3",
+      "ground_truth": "Fake",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_female_2_synthetic_1.mp3",
+      "condition": "voice_clone",
+      "sha256": "6f8a69df1c4b2cbea318d9f5d552ccbb2a7c54f12d40eb5c09d87f0deb1458c3"
+    },
+    {
+      "id": "AUD-SYN-04",
+      "modality": "audio",
+      "filename": "audio/synthetic/synthetic_audio_04_UK_female_2_synthetic_2.mp3",
+      "ground_truth": "Fake",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_female_2_synthetic_2.mp3",
+      "condition": "voice_clone",
+      "sha256": "b729f1b345403fd68e8fe7376c950ee14378130e99b8813ac2df7bc97030625e"
+    },
+    {
+      "id": "AUD-SYN-05",
+      "modality": "audio",
+      "filename": "audio/synthetic/synthetic_audio_05_UK_female_2_synthetic_3.mp3",
+      "ground_truth": "Fake",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_female_2_synthetic_3.mp3",
+      "condition": "voice_clone",
+      "sha256": "353ab85df6c7f3a3b0d8f724f4496bae0141a9cc1ab083d69f202c7f17141150"
+    },
+    {
+      "id": "AUD-SYN-06",
+      "modality": "audio",
+      "filename": "audio/synthetic/synthetic_audio_06_UK_female_3_synthetic_1.mp3",
+      "ground_truth": "Fake",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_female_3_synthetic_1.mp3",
+      "condition": "voice_clone",
+      "sha256": "1fc5b53dbcb01c57ff15eb14e80abf72a835f2f251c7d1e9401755e973c071cd"
+    },
+    {
+      "id": "AUD-SYN-07",
+      "modality": "audio",
+      "filename": "audio/synthetic/synthetic_audio_07_UK_female_3_synthetic_2.mp3",
+      "ground_truth": "Fake",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_female_3_synthetic_2.mp3",
+      "condition": "voice_clone",
+      "sha256": "6e7fbdf7989a33c3ae10802b3b4a950d6f6dd820c434ceedc4c389d709245848"
+    },
+    {
+      "id": "AUD-SYN-08",
+      "modality": "audio",
+      "filename": "audio/synthetic/synthetic_audio_08_UK_female_3_synthetic_3.mp3",
+      "ground_truth": "Fake",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_female_3_synthetic_3.mp3",
+      "condition": "voice_clone",
+      "sha256": "325aa86ae66e445adf58685a510ef7ced75f6966eb88ca3f90157d95f1c58ab5"
+    },
+    {
+      "id": "AUD-SYN-09",
+      "modality": "audio",
+      "filename": "audio/synthetic/synthetic_audio_09_UK_female_4_synthetic_1.mp3",
+      "ground_truth": "Fake",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_female_4_synthetic_1.mp3",
+      "condition": "voice_clone",
+      "sha256": "ac528544d3b1c706b1b02b5460dffc0e2fc138080849eafd9b4833b386142f25"
+    },
+    {
+      "id": "AUD-SYN-10",
+      "modality": "audio",
+      "filename": "audio/synthetic/synthetic_audio_10_UK_female_4_synthetic_2.mp3",
+      "ground_truth": "Fake",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_female_4_synthetic_2.mp3",
+      "condition": "voice_clone",
+      "sha256": "07465c7f0643ce96f311904e9ba5fffe573a619fcd7b8f0cff498f713c173cd6"
+    },
+    {
+      "id": "AUD-SYN-11",
+      "modality": "audio",
+      "filename": "audio/synthetic/synthetic_audio_11_UK_female_4_synthetic_3.mp3",
+      "ground_truth": "Fake",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_female_4_synthetic_3.mp3",
+      "condition": "voice_clone",
+      "sha256": "685e57fa977597c5768abb52919510574e0a856ef85f9c05a7f6f9ac361c4a02"
+    },
+    {
+      "id": "AUD-SYN-12",
+      "modality": "audio",
+      "filename": "audio/synthetic/synthetic_audio_12_UK_female_5_synthetic_1.mp3",
+      "ground_truth": "Fake",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_female_5_synthetic_1.mp3",
+      "condition": "voice_clone",
+      "sha256": "3161c82f6937627c19c234023170e3e8acb1c0e9deccf46ec86ab9e563bceb08"
+    },
+    {
+      "id": "AUD-SYN-13",
+      "modality": "audio",
+      "filename": "audio/synthetic/synthetic_audio_13_UK_female_5_synthetic_2.mp3",
+      "ground_truth": "Fake",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_female_5_synthetic_2.mp3",
+      "condition": "voice_clone",
+      "sha256": "65f8e5e55d53ccdad2fff26b265f587b6950e279c700237cb054e792bc5046fa"
+    },
+    {
+      "id": "AUD-SYN-14",
+      "modality": "audio",
+      "filename": "audio/synthetic/synthetic_audio_14_UK_female_5_synthetic_3.mp3",
+      "ground_truth": "Fake",
+      "source_dataset": "UniDataPro/real-vs-fake-human-voice-deepfake-audio",
+      "speaker_meta": "UK_female_5_synthetic_3.mp3",
+      "condition": "voice_clone",
+      "sha256": "f643a403e6dd3244fbab4ad1521e4932661bc2fe90217b8bde3db73d2e585d65"
+    },
+    {
+      "id": "IMG-SYN-00",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_00.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "1341628de244e3d72e2655a19b1248799d8eaa3b56594ea0f59a533b7aa66300"
+    },
+    {
+      "id": "IMG-CHAL-SYN-00",
+      "modality": "image",
+      "filename": "images/challenge_jpeg/challenge_jpeg_synthetic_00.jpg",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "compressed_jpeg_q45",
+      "sha256": "3a7702654c2932d98c0c438f7c665dcefd3ebc74674d3801172808b038d516c0"
+    },
+    {
+      "id": "IMG-GEN-00",
+      "modality": "image",
+      "filename": "images/genuine/genuine_img_00.png",
+      "ground_truth": "Real",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "1ebb4d4b448d23730b05fff93db330f75045534a543b1fc3f98b5e89dd92ad55"
+    },
+    {
+      "id": "IMG-CHAL-GEN-00",
+      "modality": "image",
+      "filename": "images/challenge_jpeg/challenge_jpeg_genuine_00.jpg",
+      "ground_truth": "Real",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "compressed_jpeg_q45",
+      "sha256": "b9816f69852f19c50a79c439e194b90e326df9be5ed0066b4c519c278f8e795c"
+    },
+    {
+      "id": "IMG-SYN-01",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_01.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "d4c49af8968df0d3237f051cb33625c725d843dc3df6c022364ad33025b66c84"
+    },
+    {
+      "id": "IMG-CHAL-SYN-01",
+      "modality": "image",
+      "filename": "images/challenge_jpeg/challenge_jpeg_synthetic_01.jpg",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "compressed_jpeg_q45",
+      "sha256": "ec3a174d61ab453ca5a4e62a3f29354a0d290f1b45f65830102af3183c6c407a"
+    },
+    {
+      "id": "IMG-SYN-02",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_02.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "6edf12f4ba639edd28ef147e020c395d360d4a0bcc4d35f37d36cd53b3b538bf"
+    },
+    {
+      "id": "IMG-CHAL-SYN-02",
+      "modality": "image",
+      "filename": "images/challenge_jpeg/challenge_jpeg_synthetic_02.jpg",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "compressed_jpeg_q45",
+      "sha256": "ad786c22c0f4a121ba5c8de8105e516361d49aa57aeadb84f12fc17267ab785f"
+    },
+    {
+      "id": "IMG-SYN-03",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_03.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "1640fe2e6373364696eac58bf280313a70536d705de02c9bae1d03fa828af5ec"
+    },
+    {
+      "id": "IMG-CHAL-SYN-03",
+      "modality": "image",
+      "filename": "images/challenge_jpeg/challenge_jpeg_synthetic_03.jpg",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "compressed_jpeg_q45",
+      "sha256": "bc3801c28fb8130024e42b99c117c00b3342aa7c4492f825d0f858a2604e94f8"
+    },
+    {
+      "id": "IMG-SYN-04",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_04.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "1341628de244e3d72e2655a19b1248799d8eaa3b56594ea0f59a533b7aa66300"
+    },
+    {
+      "id": "IMG-CHAL-SYN-04",
+      "modality": "image",
+      "filename": "images/challenge_jpeg/challenge_jpeg_synthetic_04.jpg",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "compressed_jpeg_q45",
+      "sha256": "3a7702654c2932d98c0c438f7c665dcefd3ebc74674d3801172808b038d516c0"
+    },
+    {
+      "id": "IMG-SYN-05",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_05.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "8e1ec06be94421b827287374651a7cde4813399af458b3e6a65cbebc266271f4"
+    },
+    {
+      "id": "IMG-SYN-06",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_06.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "6edf12f4ba639edd28ef147e020c395d360d4a0bcc4d35f37d36cd53b3b538bf"
+    },
+    {
+      "id": "IMG-SYN-07",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_07.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "1640fe2e6373364696eac58bf280313a70536d705de02c9bae1d03fa828af5ec"
+    },
+    {
+      "id": "IMG-SYN-08",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_08.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "6edf12f4ba639edd28ef147e020c395d360d4a0bcc4d35f37d36cd53b3b538bf"
+    },
+    {
+      "id": "IMG-GEN-01",
+      "modality": "image",
+      "filename": "images/genuine/genuine_img_01.png",
+      "ground_truth": "Real",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "IMG-CHAL-GEN-01",
+      "modality": "image",
+      "filename": "images/challenge_jpeg/challenge_jpeg_genuine_01.jpg",
+      "ground_truth": "Real",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "compressed_jpeg_q45",
+      "sha256": "d7abf50a13022b4e4977751af43486ab66ed9c797f17d82c2beba65a86f78b29"
+    },
+    {
+      "id": "IMG-GEN-02",
+      "modality": "image",
+      "filename": "images/genuine/genuine_img_02.png",
+      "ground_truth": "Real",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "IMG-CHAL-GEN-02",
+      "modality": "image",
+      "filename": "images/challenge_jpeg/challenge_jpeg_genuine_02.jpg",
+      "ground_truth": "Real",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "compressed_jpeg_q45",
+      "sha256": "d7abf50a13022b4e4977751af43486ab66ed9c797f17d82c2beba65a86f78b29"
+    },
+    {
+      "id": "IMG-GEN-03",
+      "modality": "image",
+      "filename": "images/genuine/genuine_img_03.png",
+      "ground_truth": "Real",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "IMG-CHAL-GEN-03",
+      "modality": "image",
+      "filename": "images/challenge_jpeg/challenge_jpeg_genuine_03.jpg",
+      "ground_truth": "Real",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "compressed_jpeg_q45",
+      "sha256": "d7abf50a13022b4e4977751af43486ab66ed9c797f17d82c2beba65a86f78b29"
+    },
+    {
+      "id": "IMG-SYN-09",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_09.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "1341628de244e3d72e2655a19b1248799d8eaa3b56594ea0f59a533b7aa66300"
+    },
+    {
+      "id": "IMG-GEN-04",
+      "modality": "image",
+      "filename": "images/genuine/genuine_img_04.png",
+      "ground_truth": "Real",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "1ebb4d4b448d23730b05fff93db330f75045534a543b1fc3f98b5e89dd92ad55"
+    },
+    {
+      "id": "IMG-CHAL-GEN-04",
+      "modality": "image",
+      "filename": "images/challenge_jpeg/challenge_jpeg_genuine_04.jpg",
+      "ground_truth": "Real",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "compressed_jpeg_q45",
+      "sha256": "b9816f69852f19c50a79c439e194b90e326df9be5ed0066b4c519c278f8e795c"
+    },
+    {
+      "id": "IMG-SYN-10",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_10.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "6edf12f4ba639edd28ef147e020c395d360d4a0bcc4d35f37d36cd53b3b538bf"
+    },
+    {
+      "id": "IMG-SYN-11",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_11.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "6edf12f4ba639edd28ef147e020c395d360d4a0bcc4d35f37d36cd53b3b538bf"
+    },
+    {
+      "id": "IMG-SYN-12",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_12.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "8e1ec06be94421b827287374651a7cde4813399af458b3e6a65cbebc266271f4"
+    },
+    {
+      "id": "IMG-SYN-13",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_13.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "d4c49af8968df0d3237f051cb33625c725d843dc3df6c022364ad33025b66c84"
+    },
+    {
+      "id": "IMG-SYN-14",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_14.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "6edf12f4ba639edd28ef147e020c395d360d4a0bcc4d35f37d36cd53b3b538bf"
+    },
+    {
+      "id": "IMG-SYN-15",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_15.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "8e1ec06be94421b827287374651a7cde4813399af458b3e6a65cbebc266271f4"
+    },
+    {
+      "id": "IMG-SYN-16",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_16.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "8e1ec06be94421b827287374651a7cde4813399af458b3e6a65cbebc266271f4"
+    },
+    {
+      "id": "IMG-SYN-17",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_17.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "bd191393d61c6ee19bd752d99e5aeb4094838499f5d15ac1dfc261ed050441c2"
+    },
+    {
+      "id": "IMG-GEN-05",
+      "modality": "image",
+      "filename": "images/genuine/genuine_img_05.png",
+      "ground_truth": "Real",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "IMG-SYN-18",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_18.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "6edf12f4ba639edd28ef147e020c395d360d4a0bcc4d35f37d36cd53b3b538bf"
+    },
+    {
+      "id": "IMG-GEN-06",
+      "modality": "image",
+      "filename": "images/genuine/genuine_img_06.png",
+      "ground_truth": "Real",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "IMG-GEN-07",
+      "modality": "image",
+      "filename": "images/genuine/genuine_img_07.png",
+      "ground_truth": "Real",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "IMG-SYN-19",
+      "modality": "image",
+      "filename": "images/synthetic/synthetic_img_19.png",
+      "ground_truth": "Fake",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "6edf12f4ba639edd28ef147e020c395d360d4a0bcc4d35f37d36cd53b3b538bf"
+    },
+    {
+      "id": "IMG-GEN-08",
+      "modality": "image",
+      "filename": "images/genuine/genuine_img_08.png",
+      "ground_truth": "Real",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "IMG-GEN-09",
+      "modality": "image",
+      "filename": "images/genuine/genuine_img_09.png",
+      "ground_truth": "Real",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "IMG-GEN-10",
+      "modality": "image",
+      "filename": "images/genuine/genuine_img_10.png",
+      "ground_truth": "Real",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "IMG-GEN-11",
+      "modality": "image",
+      "filename": "images/genuine/genuine_img_11.png",
+      "ground_truth": "Real",
+      "source_dataset": "akahana/deepfake-detection-dataset-v3",
+      "resolution": "256x256",
+      "condition": "standard",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "VID-GEN-00",
+      "modality": "video",
+      "filename": "videos/genuine/genuine_video_00.mp4",
+      "ground_truth": "Real",
+      "source_dataset": "verified_authentic_video_fixture",
+      "duration_frames": 1338,
+      "condition": "standard",
+      "sha256": "aab9097bfbe24647b96930d9ccb9d9fe7810d33ec5875b1284854fad7975dc1d"
+    }
+  ]
+}

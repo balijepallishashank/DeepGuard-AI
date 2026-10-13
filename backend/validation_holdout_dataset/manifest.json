@@ -1,0 +1,407 @@
+{
+  "dataset_name": "DeepGuard AI Phase 5 Disjoint Holdout Validation Dataset",
+  "description": "Completely disjoint train-split partition used to independently tune and validate decision thresholds.",
+  "sample_count": 50,
+  "records": [
+    {
+      "id": "HOLD-IMG-SYN-00",
+      "filename": "images/synthetic/holdout_synthetic_00.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "6edf12f4ba639edd28ef147e020c395d360d4a0bcc4d35f37d36cd53b3b538bf"
+    },
+    {
+      "id": "HOLD-IMG-CHAL-SYN-00",
+      "filename": "images/challenge_jpeg/holdout_challenge_jpeg_synth_00.jpg",
+      "ground_truth": "Fake",
+      "condition": "compressed_jpeg_q45",
+      "resolution": "256x256",
+      "sha256": "ad786c22c0f4a121ba5c8de8105e516361d49aa57aeadb84f12fc17267ab785f"
+    },
+    {
+      "id": "HOLD-IMG-SYN-01",
+      "filename": "images/synthetic/holdout_synthetic_01.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "8e1ec06be94421b827287374651a7cde4813399af458b3e6a65cbebc266271f4"
+    },
+    {
+      "id": "HOLD-IMG-CHAL-SYN-01",
+      "filename": "images/challenge_jpeg/holdout_challenge_jpeg_synth_01.jpg",
+      "ground_truth": "Fake",
+      "condition": "compressed_jpeg_q45",
+      "resolution": "256x256",
+      "sha256": "cd7eae20985a65765375f038394e4c0c2f27559dfb46a317e84be78daa10f695"
+    },
+    {
+      "id": "HOLD-IMG-GEN-00",
+      "filename": "images/genuine/holdout_genuine_00.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1ebb4d4b448d23730b05fff93db330f75045534a543b1fc3f98b5e89dd92ad55"
+    },
+    {
+      "id": "HOLD-IMG-CHAL-GEN-00",
+      "filename": "images/challenge_jpeg/holdout_challenge_jpeg_gen_00.jpg",
+      "ground_truth": "Real",
+      "condition": "compressed_jpeg_q45",
+      "resolution": "256x256",
+      "sha256": "b9816f69852f19c50a79c439e194b90e326df9be5ed0066b4c519c278f8e795c"
+    },
+    {
+      "id": "HOLD-IMG-SYN-02",
+      "filename": "images/synthetic/holdout_synthetic_02.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "d4c49af8968df0d3237f051cb33625c725d843dc3df6c022364ad33025b66c84"
+    },
+    {
+      "id": "HOLD-IMG-CHAL-SYN-02",
+      "filename": "images/challenge_jpeg/holdout_challenge_jpeg_synth_02.jpg",
+      "ground_truth": "Fake",
+      "condition": "compressed_jpeg_q45",
+      "resolution": "256x256",
+      "sha256": "ec3a174d61ab453ca5a4e62a3f29354a0d290f1b45f65830102af3183c6c407a"
+    },
+    {
+      "id": "HOLD-IMG-GEN-01",
+      "filename": "images/genuine/holdout_genuine_01.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1ebb4d4b448d23730b05fff93db330f75045534a543b1fc3f98b5e89dd92ad55"
+    },
+    {
+      "id": "HOLD-IMG-CHAL-GEN-01",
+      "filename": "images/challenge_jpeg/holdout_challenge_jpeg_gen_01.jpg",
+      "ground_truth": "Real",
+      "condition": "compressed_jpeg_q45",
+      "resolution": "256x256",
+      "sha256": "b9816f69852f19c50a79c439e194b90e326df9be5ed0066b4c519c278f8e795c"
+    },
+    {
+      "id": "HOLD-IMG-SYN-03",
+      "filename": "images/synthetic/holdout_synthetic_03.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "28fe3357557a3df64c0fbaac0534de0ad097f5a11d67f9edb52fca4f23bc388d"
+    },
+    {
+      "id": "HOLD-IMG-CHAL-SYN-03",
+      "filename": "images/challenge_jpeg/holdout_challenge_jpeg_synth_03.jpg",
+      "ground_truth": "Fake",
+      "condition": "compressed_jpeg_q45",
+      "resolution": "256x256",
+      "sha256": "1d62a5cf3d3e5314ddaa1370c8379c52fec8e2024fe0a940e0331fc8cbfcf2f5"
+    },
+    {
+      "id": "HOLD-IMG-GEN-02",
+      "filename": "images/genuine/holdout_genuine_02.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "HOLD-IMG-CHAL-GEN-02",
+      "filename": "images/challenge_jpeg/holdout_challenge_jpeg_gen_02.jpg",
+      "ground_truth": "Real",
+      "condition": "compressed_jpeg_q45",
+      "resolution": "256x256",
+      "sha256": "d7abf50a13022b4e4977751af43486ab66ed9c797f17d82c2beba65a86f78b29"
+    },
+    {
+      "id": "HOLD-IMG-SYN-04",
+      "filename": "images/synthetic/holdout_synthetic_04.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "6edf12f4ba639edd28ef147e020c395d360d4a0bcc4d35f37d36cd53b3b538bf"
+    },
+    {
+      "id": "HOLD-IMG-CHAL-SYN-04",
+      "filename": "images/challenge_jpeg/holdout_challenge_jpeg_synth_04.jpg",
+      "ground_truth": "Fake",
+      "condition": "compressed_jpeg_q45",
+      "resolution": "256x256",
+      "sha256": "ad786c22c0f4a121ba5c8de8105e516361d49aa57aeadb84f12fc17267ab785f"
+    },
+    {
+      "id": "HOLD-IMG-SYN-05",
+      "filename": "images/synthetic/holdout_synthetic_05.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1341628de244e3d72e2655a19b1248799d8eaa3b56594ea0f59a533b7aa66300"
+    },
+    {
+      "id": "HOLD-IMG-SYN-06",
+      "filename": "images/synthetic/holdout_synthetic_06.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "8e1ec06be94421b827287374651a7cde4813399af458b3e6a65cbebc266271f4"
+    },
+    {
+      "id": "HOLD-IMG-SYN-07",
+      "filename": "images/synthetic/holdout_synthetic_07.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1640fe2e6373364696eac58bf280313a70536d705de02c9bae1d03fa828af5ec"
+    },
+    {
+      "id": "HOLD-IMG-SYN-08",
+      "filename": "images/synthetic/holdout_synthetic_08.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1341628de244e3d72e2655a19b1248799d8eaa3b56594ea0f59a533b7aa66300"
+    },
+    {
+      "id": "HOLD-IMG-SYN-09",
+      "filename": "images/synthetic/holdout_synthetic_09.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "6edf12f4ba639edd28ef147e020c395d360d4a0bcc4d35f37d36cd53b3b538bf"
+    },
+    {
+      "id": "HOLD-IMG-SYN-10",
+      "filename": "images/synthetic/holdout_synthetic_10.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "bd191393d61c6ee19bd752d99e5aeb4094838499f5d15ac1dfc261ed050441c2"
+    },
+    {
+      "id": "HOLD-IMG-SYN-11",
+      "filename": "images/synthetic/holdout_synthetic_11.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "8e1ec06be94421b827287374651a7cde4813399af458b3e6a65cbebc266271f4"
+    },
+    {
+      "id": "HOLD-IMG-SYN-12",
+      "filename": "images/synthetic/holdout_synthetic_12.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "28fe3357557a3df64c0fbaac0534de0ad097f5a11d67f9edb52fca4f23bc388d"
+    },
+    {
+      "id": "HOLD-IMG-GEN-03",
+      "filename": "images/genuine/holdout_genuine_03.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "HOLD-IMG-CHAL-GEN-03",
+      "filename": "images/challenge_jpeg/holdout_challenge_jpeg_gen_03.jpg",
+      "ground_truth": "Real",
+      "condition": "compressed_jpeg_q45",
+      "resolution": "256x256",
+      "sha256": "d7abf50a13022b4e4977751af43486ab66ed9c797f17d82c2beba65a86f78b29"
+    },
+    {
+      "id": "HOLD-IMG-SYN-13",
+      "filename": "images/synthetic/holdout_synthetic_13.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1341628de244e3d72e2655a19b1248799d8eaa3b56594ea0f59a533b7aa66300"
+    },
+    {
+      "id": "HOLD-IMG-SYN-14",
+      "filename": "images/synthetic/holdout_synthetic_14.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "d4c49af8968df0d3237f051cb33625c725d843dc3df6c022364ad33025b66c84"
+    },
+    {
+      "id": "HOLD-IMG-SYN-15",
+      "filename": "images/synthetic/holdout_synthetic_15.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "6edf12f4ba639edd28ef147e020c395d360d4a0bcc4d35f37d36cd53b3b538bf"
+    },
+    {
+      "id": "HOLD-IMG-SYN-16",
+      "filename": "images/synthetic/holdout_synthetic_16.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "bd191393d61c6ee19bd752d99e5aeb4094838499f5d15ac1dfc261ed050441c2"
+    },
+    {
+      "id": "HOLD-IMG-SYN-17",
+      "filename": "images/synthetic/holdout_synthetic_17.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "6edf12f4ba639edd28ef147e020c395d360d4a0bcc4d35f37d36cd53b3b538bf"
+    },
+    {
+      "id": "HOLD-IMG-GEN-04",
+      "filename": "images/genuine/holdout_genuine_04.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1ebb4d4b448d23730b05fff93db330f75045534a543b1fc3f98b5e89dd92ad55"
+    },
+    {
+      "id": "HOLD-IMG-CHAL-GEN-04",
+      "filename": "images/challenge_jpeg/holdout_challenge_jpeg_gen_04.jpg",
+      "ground_truth": "Real",
+      "condition": "compressed_jpeg_q45",
+      "resolution": "256x256",
+      "sha256": "b9816f69852f19c50a79c439e194b90e326df9be5ed0066b4c519c278f8e795c"
+    },
+    {
+      "id": "HOLD-IMG-SYN-18",
+      "filename": "images/synthetic/holdout_synthetic_18.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1341628de244e3d72e2655a19b1248799d8eaa3b56594ea0f59a533b7aa66300"
+    },
+    {
+      "id": "HOLD-IMG-SYN-19",
+      "filename": "images/synthetic/holdout_synthetic_19.png",
+      "ground_truth": "Fake",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1341628de244e3d72e2655a19b1248799d8eaa3b56594ea0f59a533b7aa66300"
+    },
+    {
+      "id": "HOLD-IMG-GEN-05",
+      "filename": "images/genuine/holdout_genuine_05.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1ebb4d4b448d23730b05fff93db330f75045534a543b1fc3f98b5e89dd92ad55"
+    },
+    {
+      "id": "HOLD-IMG-GEN-06",
+      "filename": "images/genuine/holdout_genuine_06.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "HOLD-IMG-GEN-07",
+      "filename": "images/genuine/holdout_genuine_07.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "HOLD-IMG-GEN-08",
+      "filename": "images/genuine/holdout_genuine_08.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "HOLD-IMG-GEN-09",
+      "filename": "images/genuine/holdout_genuine_09.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1ebb4d4b448d23730b05fff93db330f75045534a543b1fc3f98b5e89dd92ad55"
+    },
+    {
+      "id": "HOLD-IMG-GEN-10",
+      "filename": "images/genuine/holdout_genuine_10.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "HOLD-IMG-GEN-11",
+      "filename": "images/genuine/holdout_genuine_11.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1ebb4d4b448d23730b05fff93db330f75045534a543b1fc3f98b5e89dd92ad55"
+    },
+    {
+      "id": "HOLD-IMG-GEN-12",
+      "filename": "images/genuine/holdout_genuine_12.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "HOLD-IMG-GEN-13",
+      "filename": "images/genuine/holdout_genuine_13.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1ebb4d4b448d23730b05fff93db330f75045534a543b1fc3f98b5e89dd92ad55"
+    },
+    {
+      "id": "HOLD-IMG-GEN-14",
+      "filename": "images/genuine/holdout_genuine_14.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1ebb4d4b448d23730b05fff93db330f75045534a543b1fc3f98b5e89dd92ad55"
+    },
+    {
+      "id": "HOLD-IMG-GEN-15",
+      "filename": "images/genuine/holdout_genuine_15.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1ebb4d4b448d23730b05fff93db330f75045534a543b1fc3f98b5e89dd92ad55"
+    },
+    {
+      "id": "HOLD-IMG-GEN-16",
+      "filename": "images/genuine/holdout_genuine_16.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1ebb4d4b448d23730b05fff93db330f75045534a543b1fc3f98b5e89dd92ad55"
+    },
+    {
+      "id": "HOLD-IMG-GEN-17",
+      "filename": "images/genuine/holdout_genuine_17.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1ebb4d4b448d23730b05fff93db330f75045534a543b1fc3f98b5e89dd92ad55"
+    },
+    {
+      "id": "HOLD-IMG-GEN-18",
+      "filename": "images/genuine/holdout_genuine_18.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "fe67eb617836fb0cc62fa68cf4edf7d01ef497542bd75a5c35c07c1c8f8dc40d"
+    },
+    {
+      "id": "HOLD-IMG-GEN-19",
+      "filename": "images/genuine/holdout_genuine_19.png",
+      "ground_truth": "Real",
+      "condition": "standard",
+      "resolution": "256x256",
+      "sha256": "1ebb4d4b448d23730b05fff93db330f75045534a543b1fc3f98b5e89dd92ad55"
+    }
+  ]
+}

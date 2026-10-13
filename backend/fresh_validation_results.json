@@ -1,0 +1,47 @@
+{
+  "evaluation_timestamp": "2026-10-10T07:31:49Z",
+  "frozen_thresholds": {
+    "lower_threshold": 0.7,
+    "upper_threshold": 0.76,
+    "inconclusive_band": [
+      0.7,
+      0.76
+    ]
+  },
+  "total_test_samples": 50,
+  "conclusive_samples": 36,
+  "inconclusive_samples": 14,
+  "inconclusive_rate_percent": 28.0,
+  "confusion_matrix": {
+    "true_positives": 25,
+    "false_positives": 0,
+    "true_negatives": 11,
+    "false_negatives": 0
+  },
+  "metrics": {
+    "conclusive_accuracy_percent": 100.0,
+    "strict_overall_accuracy_percent": 72.0,
+    "balanced_accuracy_percent": 100.0,
+    "precision_percent": 100.0,
+    "recall_sensitivity_percent": 100.0,
+    "specificity_percent": 100.0,
+    "false_positive_rate_percent": 0.0,
+    "false_negative_rate_percent": 0.0,
+    "f1_score_percent": 100.0
+  },
+  "latency_ms": 27.17,
+  "score_distributions": {
+    "real_images": {
+      "min": 0.2711,
+      "max": 0.7503,
+      "mean": 0.5479,
+      "median": 0.7483
+    },
+    "fake_images": {
+      "min": 0.7874,
+      "max": 0.8531,
+      "mean": 0.8207,
+      "median": 0.8098
+    }
+  }
+}
